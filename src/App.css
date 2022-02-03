@@ -1,3 +1,4 @@
+@import "bootstrap/dist/css/bootstrap.css";
 .App {
   text-align: center;
 }
@@ -35,4 +36,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+#root {
+  background-color: rgb(240, 240, 240);
+  justify-content: center;
+}
+.nav-bar {
+  background-color: #ef5350;
+}
+.context {
+  display: flex;
+}
+.link-name {
+  text-decoration: none;
+  color: white;
+}
+.link-name:hover {
+  color: rgb(240, 240, 240);
+}
+.grass {
+  background-color: yellowgreen;
+}
+.fire {
+  background-color: tomato;
+}
+.water {
+  background-color: royalblue;
+}
+.electric {
+  background-color: yellow;
+}
+.ice {
+  background-color: rgb(122, 229, 243);
+}
+.fighting {
+  background-color: orange;
+}
+.poison {
+  background-color: purple;
+}
+.ground {
+  background-color: saddlebrown;
+}
+.flying {
+  background-color: skyblue;
+}
+.psychic {
+  background-color: palevioletred;
+}
+.ghost {
+  background-color: peachpuff;
+}
+.bug {
+  background-color: rgb(7, 88, 7);
+}
+.rock {
+  background-color: grey;
+}
+.dragon {
+  background-color: rgb(255, 123, 0);
+}
+.normal {
+  background-color: violet;
+}
+.fairy {
+  background-color: slateblue;
 }
